@@ -47,3 +47,95 @@ body {
 .menu-bar a {
     color: #000;
 }
+
+/* ************MAIN********** */
+
+/* ***sidebar*** */
+.program {
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(94, 104, 121, 0.3);
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+}
+
+.program-list li {
+    margin: 0.5rem 0;
+}
+
+.program-list li:first-child {
+    color: #2478CC;
+    font-weight: bold;
+}
+
+.program-list li {
+    color: #666;
+}
+
+/* ***need help*** */
+.need-help img {
+    position: relative;
+    border-radius: 50%;
+}
+
+.need-help .need-help-chat {
+    position: absolute;
+    background: green;
+    border-radius: 50%;
+    bottom: -175px;
+    left: 285px;
+
+    border: 3px solid #fff;
+
+    width: 28px;
+    height: 28px;
+}
+
+.chat-with-us {
+    font-weight: bolder;
+}
+
+/* ***what you get*** */
+.what-you-get li {
+    list-style: none;
+    margin: 0.8rem 0;
+}
+
+.what-you-get svg {
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid ;
+    background: lightgreen;
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+/* ***************MAIN CONTENT************** */
+.video-description h6 {
+    color: #2478CC;
+    font-weight: bold;
+}
+
+.video-description p {
+    color: #666;
+    font-size: 9px;
+}
+
+.author-check {
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+.video-summary p {
+    color: #666;
+    font-size: 12px;
+}
+
+.video-summary .details {
+    display: flex;
+}
+
+.video-summary .details h6 {
+    font-size: 11px;
+}
